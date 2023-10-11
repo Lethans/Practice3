@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Font</title>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: myFirstFont;
+            src: url(sansation_light.woff);
+        }
+
+        @font-face {
+            font-family: myFirstFont;
+            src: url(sansation_bold.woff);
+            font-weight: bold;
+        }
+
+        * {
+            font-family: myFirstFont;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Web Font</h1>
+    <h2>The @font-face Rule</h2>
+
+    <div>
+    With CSS, websites can use fonts other than the pre-selected "web-safe" fonts.
+    </div>
+    <h2>The @font-face Rule</h2>
+    <div>
+        With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts</b>.</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgounds</title>
+    <style>
+        h1{
+            font-weight: bold;
+            text-align: center;
+        }
+        .example{
+            border: 1px solid black;
+            background: url(../img/image2.png);
+            background-repeat: no-repeat;
+            background-size: 80px 90px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .example1{
+            border: 1px solid black;
+            background: url(../img/image2.png);
+            background-repeat: repeat;
+            background-size: 80px 90px;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .example2{
+            border: 2px solid black;
+            padding: 5px;
+            background: orange;
+            background-clip: border-box;
+            margin: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>CSS Backgounds</h1>
+    <div class="example">
+        <h2>Ini menggunakan background gambar no-repeat</h2>
+    </div>
+    <div class="example1">
+        <h2>Ini menggunakan background gambar, repeat</h2>
+    </div>
+
+    <div class="example2">
+        <h2>Ini menggunakan background bukan gambar</h2>
+    </div>
+</body>
+</html>
